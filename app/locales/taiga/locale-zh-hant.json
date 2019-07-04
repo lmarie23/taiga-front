@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "是的，我要走了",
         "SUCCESS": "我們系統已移附你的帳戶"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "變更電子郵件",
         "SUBTITLE": "確認你的電子郵件要更新",

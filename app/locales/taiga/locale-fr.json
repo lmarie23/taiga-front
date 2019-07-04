@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Oui, je m'en vais !",
         "SUCCESS": "Nos Oompa Loompas ont supprimé votre compte"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activer votre compte",
+        "PLACEHOLDER_INPUT_TOKEN": "Activer le jeton du compte",
+        "ACTION_LEAVING": "Yes, je rejoins Taiga !",
+        "SUCCESS": "Nos Oompa Loompas ont activé votre compte"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Modifier votre adresse courriel",
         "SUBTITLE": "Plus qu'un click et votre adresse courriel sera mise à jour !",

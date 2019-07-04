@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "بله، خارج می‌شوم!",
         "SUCCESS": "اومپا لومپای ما حساب کاربری شما را حذف کرد"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "تغییر ایمیل",
         "SUBTITLE": "یک کلیک دیگر تا تغییر ایمیل شما!",

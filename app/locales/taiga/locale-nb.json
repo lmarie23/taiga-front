@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Ja, jeg går!",
         "SUCCESS": "Våre Oompa Loompaer har slettet din konto"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Bytt din epost",
         "SUBTITLE": "Ett klikk til og din epost vil være oppdatert!",

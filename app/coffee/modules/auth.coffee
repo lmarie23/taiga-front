@@ -230,6 +230,11 @@ class AuthService extends taiga.Service
         data = _.clone(data, false)
         return @http.post(url, data)
 
+    activateAccount: (data) ->
+        url = @urls.resolve("users-activate-account")
+        data = _.clone(data, false)
+        return @http.post(url, data)
+
     exportProfile: () ->
         url = @urls.resolve("users-export")
         return @http.post(url)
@@ -675,3 +680,45 @@ CancelAccountDirective = ($repo, $model, $auth, $confirm, $location, $params, $n
 
 module.directive("tgCancelAccount", ["$tgRepo", "$tgModel", "$tgAuth", "$tgConfirm", "$tgLocation",
                                      "$routeParams","$tgNavUrls", CancelAccountDirective])
+
+#############################################################################
+## Activate account
+#############################################################################
+
+ActivateAccountDirective = ($repo, $model, $auth, $confirm, $location, $params, $navUrls) ->
+    link = ($scope, $el, $attrs) ->
+        $scope.data = {}
+        $scope.data.activation_token = $params.activation_token
+        form = $el.find("form").checksley()
+
+        onSuccessSubmit = (response) ->
+            $auth.logout()
+            $location.path($navUrls.resolve("home"))
+
+            text = $translate.instant("ACTIVATE_ACCOUNT.SUCCESS")
+
+            $confirm.success(text)
+
+        onErrorSubmit = (response) ->
+            text = $translate.instant("COMMON.GENERIC_ERROR", {error: response.data._error_message})
+
+            $confirm.notify("error", text)
+
+        submit = debounce 2000, (event) =>
+            event.preventDefault()
+
+            if not form.validate()
+                return
+
+            promise = $auth.activateAccount($scope.data)
+            promise.then(onSuccessSubmit, onErrorSubmit)
+
+        $el.on "submit", "form", submit
+
+        $scope.$on "$destroy", ->
+            $el.off()
+
+    return {link:link}
+
+module.directive("tgActivateAccount", ["$tgRepo", "$tgModel", "$tgAuth", "$tgConfirm", "$tgLocation",
+                                     "$routeParams","$tgNavUrls", ActivateAccountDirective])

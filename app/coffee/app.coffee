@@ -471,6 +471,8 @@ configure = ($routeProvider, $locationProvider, $httpProvider, $provide, $tgEven
         {templateUrl: "user/change-email.html"})
     $routeProvider.when("/cancel-account/:cancel_token",
         {templateUrl: "user/cancel-account.html"})
+    $routeProvider.when("/activate-account/:activation_token",
+        {templateUrl: "user/activate-account.html"})
 
     # UserSettings - Contrib Plugins
     $routeProvider.when("/user-settings/contrib/:plugin",

@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Ja, ich gehe!",
         "SUCCESS": "Unsere Helferlein haben Ihr Benutzerkonto entfernt."
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Ändern Sie Ihre E-Mail",
         "SUBTITLE": "Noch ein Klick und Ihre E-Mail wird aktualisiert!",

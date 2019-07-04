@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "はい、離脱します！",
         "SUCCESS": "ウンパルンパたちがあなたのアカウントを削除しました。"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "メール変更",
         "SUBTITLE": "あとはクリックだけであなたのメールアドレスが更新されます！",

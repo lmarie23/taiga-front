@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "네, 나갈래요!",
         "SUCCESS": "움파룸파가 당신 계정을 지웠습니다"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "이메일 변경하기",
         "SUBTITLE": "한번 더 클릭하시면 이메일 정보가 업데이트 됩니다.",

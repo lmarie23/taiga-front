@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Sí, m'hen vaig!",
         "SUCCESS": "Els Oompa Loompas han esborrat el teu conter"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Canvia el teu correu",
         "SUBTITLE": "Un click més i el teu correu estarà actualitzat!",

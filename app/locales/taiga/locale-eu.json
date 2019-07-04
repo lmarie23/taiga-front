@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Bai, banoa!",
         "SUCCESS": "Gure Galtzagorriek ezabatu dute zure kontua"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Aldatu e-posta",
         "SUBTITLE": "Klik bat gehiago eginda, zure e-posta eguneratuta geldituko da!",

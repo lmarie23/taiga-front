@@ -35,6 +35,7 @@ urls = {
     "users-change-password": "/users/change_password"
     "users-change-email": "/users/change_email"
     "users-cancel-account": "/users/cancel"
+    "users-activate-account": "/users/activate"
     "users-export": "/users/export"
     "user-stats": "/users/%s/stats"
     "user-liked": "/users/%s/liked"

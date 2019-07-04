@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "כן, אני עוזב!",
         "SUCCESS": "אנשי האומפה-לומפה שלנו הסירו את חשבונך"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "שנה את הדוא\"ל שלך",
         "SUBTITLE": "עוד לחיצה אחת והדוא\"ל שלך יעודכן",

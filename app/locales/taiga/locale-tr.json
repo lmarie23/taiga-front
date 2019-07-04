@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Evet, ayrılıyorum!",
         "SUCCESS": "Honki ponkilerimiz hesabınızı sildi"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "E-postanı değiştir",
         "SUBTITLE": "Bir tık daha ve e-postanız güncellenecek!",

@@ -1,0 +1,10 @@
+div.activate-account(tg-activate-account)
+    p
+        strong(translate="ACTIVATE_ACCOUNT.TITLE")
+
+    form
+        fieldset
+            input(type="hidden", name="activation_token", ng-model="data.activation_token", data-required="true",
+                  placeholder="{{'ACTIVATE_ACCOUNT.PLACEHOLDER_INPUT_TOKEN' | translate}}")
+
+            button.button-activate-account.button-gray(type="submit", title="{{'ACTIVATE_ACCOUNT.ACTION_ACTIVATE | translate}}", translate="ACTIVATE_ACCOUNT.ACTION_ACTIVATE")

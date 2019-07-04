@@ -1479,6 +1479,12 @@
         "ACTION_LEAVING": "Kyllä, olen lähdössä!",
         "SUCCESS": " Oompa Loompas poistivat tunnuksesi"
     },
+    "ACTIVATE_ACCOUNT": {
+        "TITLE": "Activate your account",
+        "PLACEHOLDER_INPUT_TOKEN": "activate account token",
+        "ACTION_LEAVING": "Yes, I'm leaving!",
+        "SUCCESS": "Our Oompa Loompas activated your account"
+    },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Muuta sähköpostisi",
         "SUBTITLE": "Vielä yksi klikki ja sähköpostisi on päivitetty!",
